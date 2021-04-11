@@ -1,0 +1,238 @@
+body {
+    font-family: "Trebuchet MS",Arial,sans-serif !important;
+    color: #333 !important;
+}
+p {
+    margin: unset !important;
+}
+.image_size img {
+    width: 70px;
+}
+.footer_txt h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer_txt h2::after {
+    content: '';
+    display: inline-block;
+    width: 39%;
+    height: 1px;
+    background-color: rgba(153,153,153,.43);
+    margin-bottom: 6px;
+    margin-left: 10px;
+}
+.footer_txt h2::before {
+    content: '';
+    display: inline-block;
+    width: 39%;
+    height: 1px;
+    background-color: rgba(153,153,153,.43);
+    margin-bottom: 6px;
+    margin-right: 10px;
+ }
+ .colorfull_top {
+     background-color: #370f53;
+     color: #f1f1f1;
+ }
+ .stl {
+    width: 60px !important;
+    border-radius: 2px !important;
+    margin: 0 3px;
+    border: 1px solid #ccc !important;
+ }
+ .stl_b {
+    border: unset !important;
+ }
+ .icon .fab {
+    background-color: #4d4d4d;
+    padding: 7px;
+    color: white;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+p.size_p {
+    line-height: 1.375rem;
+}
+.second_top {
+    background-color: #5a2d82;
+}
+.colorfull_p p, .colorfull_p label {
+    color: #f1f1f1;
+}
+.logo_stl img {
+    color: #f1f1f1;
+    width: 70px;
+}
+.color_blue h2, span.color_blue {
+    color: #29b7e9;
+}
+#btn-sec {
+    color: #29b7e9;
+    background-color: #ffffff;
+    border-color: #6c757d;
+    margin: unset;
+    position: relative;
+    right: 39px;
+    border: unset;
+    border-radius: 0px 32px 32px 0px !important;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    padding-left: 15px;
+}
+#btn-sec:hover {
+    color: #ffffff;
+    background-color: #29b7e9;
+}
+.form-control {
+   border-radius: 20px !important;
+   border: 1px solid #ffffff !important;
+   padding: 0.495rem .95rem !important;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #fff !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+.font h2 {
+    color: #4d4d4d;
+    line-height: 1.75rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: none;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+}
+.short-description p {
+    font-size: .875rem;
+    color: #4d4d4d;
+}
+p.breadcrumb {
+    margin-top: 16px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: .75rem;
+    text-transform: none;
+    list-style: none;
+    overflow: hidden;
+    line-height: 1.3;
+    color: #5a2d82;
+}
+.paragraphy p {
+    font-size: 12px;
+}
+.radius {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 20px;
+}
+ul.radio {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: unset;
+    margin: unset;
+}
+ul.radio li {
+    list-style: none;
+    margin: 0 5px;
+}
+ul.radio li a {
+    color: #333;
+}
+.product-item {
+    display: block;
+    /* padding: 0 7px; */
+    height: 28px;
+    min-width: 28px;
+    text-align: center;
+    font-size: .6875rem;
+    line-height: 26px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid #ccc;
+}
+.reduce {
+    color: #8c8c8c;
+}
+.list ul li {
+    list-style: none;
+}
+.list ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #666;
+}
+footer {
+    background-color: #f4f4f4;
+}
+.color_icon {
+    color: #5a317d;
+}
+.icon img {
+    margin-right: 7px;
+}
+.sz h6 {
+    font-weight: bold;
+}
+.sz p {
+    line-height: 15px;
+}
+.border_container {
+    border-bottom: 2px solid #5a317d;
+}
+.space_icon {
+    margin-right: 7px;
+    font-size: 23px;
+}
+.size_p a {
+    color: #4d4d4d;
+}
+.fas.space_icon {
+    margin-left: 5px;
+    cursor: pointer;
+}
+ul.sub {
+    position: absolute;
+    top: 97px;
+    /* right: auto; */
+    padding: 0 30px;
+    /* height: 290px; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px 1px #80808033;
+    display: none;
+}
+ul.sub li {
+    list-style: none;
+}
+.active {
+    display: block !important;
+}
+ul.list li {
+    list-style: none;
+    font-family: "Source Sans Pro Regular",sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #666;
+}
+.bord {
+    border-left: 1px solid #eee;
+}
+.zipcode-content p {
+    font-size: 12px;
+    cursor: pointer;
+    color: #999;
+    font-family: "Source Sans Pro Regular",sans-serif;
+}
+.icon img {
+    margin-right: 10px;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5a2c85;
+}   
